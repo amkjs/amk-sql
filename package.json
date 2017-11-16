@@ -1,11 +1,11 @@
 {
   "name": "amk-sql",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "sql knex plugin for amk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-	"preversion": "git pull upstream master && npm test",
+    "preversion": "git pull upstream master && npm test",
     "postversion": "git push upstream master && git push upstream --tags"
   },
   "repository": {
