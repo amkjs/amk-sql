@@ -1,6 +1,6 @@
 {
   "name": "amk-sql",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "sql knex plugin for amk",
   "main": "index.js",
   "scripts": {
