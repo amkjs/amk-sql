@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/amkjs/amk-sql.git"
+    "url": "https://github.com/amkjs/amk-sql.git"
   },
   "keywords": [
     "amk",
