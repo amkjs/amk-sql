@@ -1,6 +1,6 @@
 {
   "name": "amk-sql",
-  "version": "0.2.4",
+  "version": "1.0.0-rc3",
   "description": "sql knex plugin for amk",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,7 @@
   "bugs": {
     "url": "https://github.com/amkjs/amk-sql/issues"
   },
-  "homepage": "https://github.com/amkjs/amk-sql#readme"
+  "homepage": "https://github.com/amkjs/amk-sql#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
