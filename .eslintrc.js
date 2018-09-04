@@ -1,5 +1,5 @@
 module.exports = {
-	extends: "amk",
+	extends: 'amk',
 	env: {
 		mocha: true
 	}
