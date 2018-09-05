@@ -3,6 +3,8 @@ jobs:
   build:
     docker:
       - image: circleci/node:8.11.4
+        environment:
+          COVERALLS_SERVICE_NAME: circleci
     steps:
       - checkout
       - restore_cache:
@@ -16,7 +18,7 @@ jobs:
             - ./node_modules
       - run:
           name: test
-          command: npm run lint && npm test && npm run codecov
+          command: npm run lint && npm test && npm run coveralls
       - store_artifacts:
           path: test-results.xml
           prefix: tests
@@ -25,6 +27,3 @@ jobs:
           prefix: coverage
       - store_test_results:
           path: test-results.xml
-      - run:
-          name: upload to codecov
-          command: bash <(curl -s https://codecov.io/bash)

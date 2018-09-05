@@ -1,5 +1,8 @@
 # AMK-SQL
 
+[![CircleCI](https://circleci.com/gh/amkjs/amk-sql.svg?style=svg)](https://circleci.com/gh/amkjs/amk-sql)
+[![Coverage Status](https://coveralls.io/repos/github/amkjs/amk-sql/badge.svg?branch=master)](https://coveralls.io/github/amkjs/amk-sql?branch=master)
+
 AMK-SQL is a plugin for [express](https://expressjs.com/) using [knex](https://knexjs.org/) to simplify the usage of SQL databases
 
 ## Setup
