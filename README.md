@@ -1,7 +1,8 @@
 # AMK-SQL
 
 [![CircleCI](https://circleci.com/gh/amkjs/amk-sql.svg?style=svg)](https://circleci.com/gh/amkjs/amk-sql)
-[![Coverage Status](https://coveralls.io/repos/github/amkjs/amk-sql/badge.svg?branch=master)](https://coveralls.io/github/amkjs/amk-sql?branch=master)
+[![codecov](https://codecov.io/gh/amkjs/amk-sql/branch/master/graph/badge.svg)](https://codecov.io/gh/amkjs/amk-sql)
+[![Known Vulnerabilities](https://snyk.io/test/github/amkjs/amk-sql/badge.svg?targetFile=package.json)](https://snyk.io/test/github/amkjs/amk-sql?targetFile=package.json)
 
 AMK-SQL is a plugin for [express](https://expressjs.com/) using [knex](https://knexjs.org/) to simplify the usage of SQL databases
 
