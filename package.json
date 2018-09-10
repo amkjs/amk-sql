@@ -4,9 +4,9 @@
   "description": "sql knex plugin for amk",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nyc ./node_modules/mocha/bin/_mocha",
-    "lint": "./node_modules/.bin/eslint .",
-    "coveralls": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "nyc mocha",
+    "lint": "eslint .",
+    "codecov": "codecov",
     "preversion": "git pull upstream master && npm test",
     "postversion": "git push upstream master && git push upstream --tags"
   },
@@ -28,7 +28,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.2",
-    "coveralls": "^3.0.2",
+    "codecov": "^3.1.0",
     "eslint": "^5.4.0",
     "eslint-config-amk": "^0.1.0",
     "mocha": "^5.2.0",

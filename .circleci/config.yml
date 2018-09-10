@@ -18,7 +18,7 @@ jobs:
             - ./node_modules
       - run:
           name: test
-          command: npm run lint && npm test && npm run coveralls
+          command: npm run lint && npm test && npm run codecov
       - store_artifacts:
           path: test-results.xml
           prefix: tests
