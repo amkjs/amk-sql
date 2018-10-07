@@ -26,12 +26,17 @@
   },
   "homepage": "https://github.com/amkjs/amk-sql#readme",
   "dependencies": {},
+  "peerDependencies": {
+    "knex": ">= 0.14.3"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "codecov": "^3.1.0",
     "eslint": "^5.4.0",
     "eslint-config-amk": "^0.1.0",
+    "knex": "^0.15.2",
     "mocha": "^5.2.0",
-    "nyc": "^13.0.1"
+    "nyc": "^13.0.1",
+    "sinon": "^6.3.4"
   }
 }

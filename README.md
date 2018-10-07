@@ -69,23 +69,20 @@ Querying dataset with pagination
 ##### Arguments
 * **param** **_(string)_** - query parameter
 * **limit** **_(number)_** - limit
-* **offset** **_(number)_** - offset
+* **offset** **_(number)_** - offset (limit is required if offset is set)
 * **groupBy** **_(string)_** - group by statement
 * **orderBy** **_(string|Object)_** - order by or order by and direction
 
 ##### Returns
 * **_(Array|Promise)_** - result set in an array or query object
 
-#### ```count(params, { limit, offset, groupBy, orderBy})```
+#### ```count(params, { groupBy })```
 ---
 Count the number of entry in a table
 
 ##### Arguments
 * **param** **_(string)_** - query parameter
-* **limit** **_(number)_** - limit
-* **offset** **_(number)_** - offset
 * **groupBy** **_(string)_** - group by statement
-* **orderBy** **_(string|Object)_** - order by or order by and direction
 
 ##### Returns
 * **_(Array|Promise)_** - count in an array or query object. suggest to use destructuring like `let [count] = model.count()` to get the value
